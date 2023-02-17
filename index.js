@@ -9,14 +9,15 @@ const port = 4000;
 // In-memory data store
 const data = {
   warriors: [
-    { id: "001", name: "Jaime" },
-    { id: "002", name: "Jorah" },
-    { id: "003", name: "Jaime" },
-    { id: "004", name: "Jorah" },
-    { id: "005", name: "Jaime" },
-    { id: "006", name: "Jorah" },
-    { id: "007", name: "Jaime" },
-    { id: "008", name: "Jorah", email: "jorah@example.com" },
+    { id: "001", name: "Jaime", email: "jorah@example.com" },
+    { id: "002", name: "Jorah", email: "jorah@example.com" },
+
+    // { id: "003", name: "Jaime", email: "jorah@example.com" },
+    // { id: "004", name: "Jorah", email: "jorah@example.com" },
+    // { id: "005", name: "Jaime", email: "jorah@example.com" },
+    // { id: "006", name: "Jorah", email: "jorah@example.com" },
+    // { id: "007", name: "Jaime", email: "jorah@example.com" },
+    // { id: "008", name: "Jorah", email: "jorah@example.com" },
   ],
 };
 
